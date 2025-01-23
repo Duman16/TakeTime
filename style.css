@@ -1,0 +1,40 @@
+header {
+    background-color: #ffffffe1;
+    color: rgba(0, 0, 0, 0.692);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: left;
+    border: 1px solid #ebeaeaf3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.profile {
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 50%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+}
+
+.progress-bar {
+    height: auto;
+    position: absolute;
+    right: 75px;
+    top: 50%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+}
+
+a {
+    color: #828282;
+    text-decoration: none;
+    margin-right: 16px;
+}
+.TakeTime{
+    color:black;
+    margin-right: 24px;
+}
