@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
 header {
     background-color: #ffffffe1;
     color: rgba(0, 0, 0, 0.692);
@@ -38,3 +44,71 @@ a {
     color:black;
     margin-right: 24px;
 }
+.payment{
+    position: fixed;
+    top: 128px;
+    left: 367px;
+}
+.payment-text{
+    color: black;
+}
+
+.premium{
+    display: flex;
+    border: 1px solid #E2E2EA;
+    width: 854px;
+    height: 336px;
+    border-radius: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+.premium-text{
+    top: 75px;
+    width: 513px;
+    height: 32px;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 264px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+.text-in-premium{
+    display: flex;
+    width: 626px;
+    height: 208px;
+    padding-top: 96px;
+    padding-bottom: 32px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.active{
+    font-size: 16px;
+    font-weight: 600;
+    right: 80px;
+    color: #92929D;
+    width: 63px;
+    height: 20px;
+    top: 95px;
+    margin-top: 40px;
+    margin-bottom: 268px;
+    margin-left: 583px;
+    margin-right: 40px;
+}
+
+.oplata {
+    color: #92929D;
+    font-size: 16px;
+    font-weight: 600;
+    width: 134px;
+    height: 52px;
+    padding-top: 100px;
+    padding-bottom: 188px;
+    padding-left: 40px;
+    padding-right: 532px;
+    position: absolute;
+    top: 80px; 
+}
+
